@@ -18,7 +18,7 @@ namespace ShopTARgv23.KindergartenTest
                 GroupName = "test123",
                 ChildrenCount = 123,
                 KindergartenName = "TEST123",
-                Teacher = "Mister Test"
+                Teacher = "Mister Test" //
             };
 
             var createdKindergarten = await Svc<IKindergartenServices>().Create(dto);
